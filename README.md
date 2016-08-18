@@ -4,14 +4,14 @@
 ## 正文
 ClangFormat-Xcode：是一款Xcode的代码格式化插件 (github[下载链接](https://github.com/travisjeffery/ClangFormat-Xcode))，非常方便好用，可以极大减少花费调整代码规范的时间，提高编码效率。用了之后，妈妈再也用不担心我的编码规范了。
 下面教大家怎么去配置ClangFormat-Xcode，打造一个属于自己的团队的代码规范。
-#### 安装插件
+### 安装插件
 * 1.手动安装                          
 和其他的插件一样，先去github下载工程，运行程程序安装。
 * 2.自动安装           
 如果安装过Alcatraz的同学，可以去可视化窗口搜索ClangFormat，点击Install自动安装。
 ![](http://upload-images.jianshu.io/upload_images/1321491-0e7c3785b41f96a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-####配置参数
+### 配置参数
 安装完成之后重启Xcode，点击Load Bundle，选择Xcode ->Edit，看到ClangFormat的选项，说明安装成功了。
 ![](http://upload-images.jianshu.io/upload_images/1321491-4cc76d071be9e3f6.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![ClangFormat菜单](http://upload-images.jianshu.io/upload_images/1321491-d3c30dadd0d4f3e5.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
