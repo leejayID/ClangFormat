@@ -10,15 +10,18 @@ ClangFormat-Xcode：是一款Xcode的代码格式化插件 (github[下载链接]
 * 2.自动安装           
 如果安装过Alcatraz的同学，可以去可视化窗口搜索ClangFormat，点击Install自动安装。
 ![](http://upload-images.jianshu.io/upload_images/1321491-0e7c3785b41f96a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
 ####配置参数
 安装完成之后重启Xcode，点击Load Bundle，选择Xcode ->Edit，看到ClangFormat的选项，说明安装成功了。
 ![](http://upload-images.jianshu.io/upload_images/1321491-4cc76d071be9e3f6.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![ClangFormat菜单](http://upload-images.jianshu.io/upload_images/1321491-d3c30dadd0d4f3e5.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 我们可以看到有LLVM，Google，Chromium，Mozilla，WebKit，File这几种格式化风格，File就是我们自定义的风格。
 下面我来教大家怎么去自定义风格。
 首先创建一个".clang-format"文件，创建这个文件有两种方式：
 * 1.终端创建：这边以DemoTest项目为例，打开终端，cd到**工程目录**下（一定要工程目录哦），创建一个".clang-format"文件。
-![截图](http://upload-images.jianshu.io/upload_images/1321491-815db48a6114af89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![](http://upload-images.jianshu.io/upload_images/1321491-815db48a6114af89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```objc
 $  cd /Users/xxxx/AppGo
 $  vim .clang-fomat
@@ -87,21 +90,29 @@ MaxEmptyLinesToKeep: 1
 前面的配置成功之后，后面的使用就更简单了，打开你刚刚配置的工程，然后点击Xcode ->Edit->ClangFormat->Format Select Files，格式化整个文件中的代码。
 下面附上两张格式化前和格式化后的截图：
 格式化前：
+
 ![](http://upload-images.jianshu.io/upload_images/1321491-d227c40febbcc946.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/1321491-0b8f91bf5464b27a.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 格式化后：
+
 ![](http://upload-images.jianshu.io/upload_images/1321491-9c7eb4f8894e0d8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/1321491-c58a6704da070702.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 是不是感觉一下子从凤姐变成了AngelaBaby，代码是是我们程序员的脸面，大家理应重视。
 ### 快捷键
 快捷键的使用：可以给常用的操作设置快捷键，我们一般常用的操作是Format Select Files和Format Select Text两个功能。
 * 1.Format Select Files是格式化当前文件的代码。设置快捷键：点击下面的Enable Format on Save（当它是Disable Format on Save状态就不用点了），插件会自动帮我们生成（Command+S）快捷键。
+
 ![](http://upload-images.jianshu.io/upload_images/1321491-782d411cc8723a4e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 2.Format Select Text是格式化选中的代码。这个快捷键需要手动设置。
 > (PS:第二个快捷键可以不用设置的，因为Format Select Files格式化当前文件已经够用了，感兴趣的同学可以试试)，打开设置->键盘->快捷键->点击右侧应用快捷键->添加。
+
 ![](http://upload-images.jianshu.io/upload_images/1321491-ea68021e8b27f1ca.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/1321491-18cbc31a63907da5.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ok，大功告成！
+
 ## 最后
 文章如果有错误的地方，还请大神指正。
 
