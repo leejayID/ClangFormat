@@ -38,7 +38,7 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 
 # 指针对准
-DerivePointerAlignment: true
+# DerivePointerAlignment: true
 
 # @[]里面两边空格，默认true
 SpacesInContainerLiterals: false

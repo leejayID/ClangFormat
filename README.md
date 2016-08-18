@@ -69,7 +69,7 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 
 # 指针对准
-DerivePointerAlignment: true
+# DerivePointerAlignment: true
 
 # @[]里面两边空格，默认true
 SpacesInContainerLiterals: false
@@ -97,7 +97,7 @@ MaxEmptyLinesToKeep: 1
 格式化后：
 
 ![](http://upload-images.jianshu.io/upload_images/1321491-9c7eb4f8894e0d8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/1321491-c58a6704da070702.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+!![](http://upload-images.jianshu.io/upload_images/1321491-9ef3648252354843.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 是不是感觉一下子从凤姐变成了AngelaBaby，代码是是我们程序员的脸面，大家理应重视。
 ### 快捷键
@@ -106,6 +106,7 @@ MaxEmptyLinesToKeep: 1
 
 ![](http://upload-images.jianshu.io/upload_images/1321491-782d411cc8723a4e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 2.Format Select Text是格式化选中的代码。这个快捷键需要手动设置。
+
 > (PS:第二个快捷键可以不用设置的，因为Format Select Files格式化当前文件已经够用了，感兴趣的同学可以试试)，打开设置->键盘->快捷键->点击右侧应用快捷键->添加。
 
 ![](http://upload-images.jianshu.io/upload_images/1321491-ea68021e8b27f1ca.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
