@@ -29,7 +29,7 @@ ClangFormat-Xcode：是一款Xcode的代码格式化插件 (github[下载链接]
 ![](http://upload-images.jianshu.io/upload_images/1321491-815db48a6114af89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```objc
 $  cd /Users/xxx/DemoTest
-$  vim .clang-fomat
+$  vim .clang-format
 ```
 然后将下面这些配置参数粘贴进去，这些参数是我根据我们团队的代码规范整理出来的（仅供参考），可能并不适合你们的团队，所有参数的含义下面都有说明：
 
